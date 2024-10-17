@@ -33,6 +33,8 @@ This project need a node_modules folder to keep its dependencies. It doesn't com
 # npm i nodemon -D
 ```
 
+Sometimes changes will affect package-lock.json and package.json files. This is normal, so don't worry.
+
 ## Products Controllers
 
 Once this step is completed and you've chosen your database, you'll have to set up the **products.controllers.js** file in the **src/controllers** path.

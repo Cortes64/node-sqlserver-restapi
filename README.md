@@ -46,7 +46,7 @@ Instead of **PutYourUserName** put your user name of the sql server. Then, do th
 
 Once this step is completed and you've chosen your database, you'll have to set up the **products.controllers.js** file in the **src/controllers** path.
 
-### How it works?
+### How does it works?
 
 Let's get the following example:
 

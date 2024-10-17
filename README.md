@@ -92,3 +92,7 @@ Executing the program is easy. You only need to open a terminal and open the pat
 ![npm run dev](Images/NpmRunDev.png)
 
 If you want to cancel the process, press `Ctrl+C`. If you don't have npm, you'll have to install it. 
+
+## Settings
+
+Add settings

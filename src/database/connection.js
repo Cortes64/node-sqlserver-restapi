@@ -1,15 +1,5 @@
 import sql from 'mssql'
-
-const dbSettings = {
-    user: "PutYourUserName",
-    password: "PutYourPassword",
-    server: "PutYourServerName",
-    database: "PutYourDatabaseName",
-    options: {
-        encrypt: false,
-        trustServerCertificate: true,
-    }
-}
+import { dbSettings } from '../config.js';
 
 export const getConnection = async () => {
     try {

@@ -9,6 +9,7 @@
   - [Products Controllers](#products-controllers)
     - [How it works?](#how-it-works)
     - [Inserting a new controller](#inserting-a-new-controller)
+  - [Settings](#settings)
   - [Execution](#execution)
 
 ## Introduction
@@ -85,14 +86,6 @@ If you don't need an id, you can remove it:
 router.post('/products', createProduct)
 ```
 
-## Execution
-
-Executing the program is easy. You only need to open a terminal and open the path in which the API is. Then, run the following command: ```npm run dev```. You'll see this:
-
-![npm run dev](Images/NpmRunDev.png)
-
-If you want to cancel the process, press `Ctrl+C`. If you don't have npm, you'll have to install it. 
-
 ## Settings
 
 Add a file called `config.js` in the src folder. It should look like this:
@@ -109,3 +102,12 @@ export const dbSettings = {
     }
 }
 ```
+
+## Execution
+
+Executing the program is easy. You only need to open a terminal and open the path in which the API is. Then, run the following command: ```npm run dev```. You'll see this:
+
+![npm run dev](Images/NpmRunDev.png)
+
+If you want to cancel the process, press `Ctrl+C`. If you don't have npm, you'll have to install it. 
+

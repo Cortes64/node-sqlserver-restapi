@@ -95,4 +95,17 @@ If you want to cancel the process, press `Ctrl+C`. If you don't have npm, you'll
 
 ## Settings
 
-Add settings
+Add a file called `config.js` in the src folder. It should look like this:
+
+```javascript
+export const dbSettings = {
+    user: "yourUser",
+    password: "yourPassword",
+    server: "yourServer",
+    database: "yourDatabaseName",
+    options: {
+        encrypt: false, // change it to true when using in an app
+        trustServerCertificate: true,
+    }
+}
+```

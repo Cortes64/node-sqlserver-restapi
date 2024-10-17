@@ -24,24 +24,14 @@ First of all, if you want to have this repository on your local device, then clo
 # git clone https://github.com/Cortes64/node-sqlserver-restapi
 ```
 
-Before you run the API, you'll need to set it up. Is recommended to open this folder in **Visual Studio Code**. Once in the folder, open the following path: **src/database/connection.js**. Then, change the constant **dbSettings** to have your settings.
+## Dependencies
 
-```javascript
-const dbSettings = {
-    user: "PutYourUserName",
-    password: "PutYourPassword",
-    server: "PutYourServerName",
-    database: "PutYourDatabaseName",
-    options: {
-        encrypt: false,
-        trustServerCertificate: true,
-    }
-}
+This project need a node_modules folder to keep its dependencies. It doesn't comes with the repository (because of the .gitignore), so you'll have to add it inserting the following commands:
+
+```cmd
+# npm i express mssql cors dotenv morgan
+# npm i nodemon -D
 ```
-
-Instead of **PutYourUserName** put your user name of the sql server. Then, do the same with the following.
-
-> *Warning: If you're trying the API locally and you want to check the data inside your database, then leave the encrypt option false. If you don't want anyone to read the data, then set the **encrypt option** true.*
 
 ## Products Controllers
 
